@@ -390,17 +390,17 @@
                     <div class="col-md-6">
                         <div id="contact-right">
                             <h3>Contact Me</h3>
-                            <form action="#">
+                            <form method="post" action="contact-form-process.php">
 
 
-                                <input type="text" name="full-name" placeholder="Full-Name" class="form-control">
-                                <input type="text" name="email" placeholder="Email" class="form-control">
-                                <textarea rows="5" name="message" placeholder="Message..."
-                                    class="form-control"></textarea>
-                                    <input type="file" name="selectedfile" >
-                                <div id="send-btn">
-                                    <a class="btn btn-lg btn-general btn-white" href="#" role="button">SEND</a>
-                                </div>
+                                <input type="text" id="Name" name="Name" placeholder="Full-Name" class="form-control" required>
+                                <input type="text" id="Email" name="Email" placeholder="Email" class="form-control" required>
+                                <textarea rows="5" id="Message" name="Message" placeholder="Message..."
+                                    class="form-control" required></textarea>
+                                    
+                                    <div class="fcf-form-group">
+                                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                                    </div>
                                
                             </form>
 
@@ -411,46 +411,7 @@
             </div>
         </div>
 
-        <div class="fcf-body">
-
-            <div id="fcf-form">
-            <h3 class="fcf-h3">Contact us</h3>
         
-            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-                
-                <div class="fcf-form-group">
-                    <label for="Name" class="fcf-label">Your name</label>
-                    <div class="fcf-input-group">
-                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <label for="Email" class="fcf-label">Your email address</label>
-                    <div class="fcf-input-group">
-                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <label for="Message" class="fcf-label">Your message</label>
-                    <div class="fcf-input-group">
-                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-                </div>
-        
-                <div class="fcf-credit" id="fcf-credit">
-                Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
-                </div>
-        
-            </form>
-            </div>
-        
-        </div>
 
         <div id="footer-bottom">
             <div class="container">
