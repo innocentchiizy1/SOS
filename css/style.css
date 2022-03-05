@@ -31,7 +31,7 @@ h3 {
 }
 
 #home-cover {
-    background-image: url("../img/images/SOS\ \(20\).jpeg");
+    background-image: url("../img/images/SOS\ \(10\).jpeg");
     height: 100%;
     
 
@@ -565,7 +565,7 @@ form .form-control {
 }
 
 .navbar-nav>li>a {
-    color: black;
+    color: #34c6d3;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
