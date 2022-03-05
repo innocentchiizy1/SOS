@@ -33,17 +33,14 @@ h3 {
 #home-cover {
     background-image: url("../img/images/SOS\ \(00\).jpeg");
     height: 100%;
-    
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 
 }
-@media(max-width: 979px){
-    #home-cover {
-      background-position:center;
-      background-size: contain;
-      background-image: url(../img/images/SOS\ \(0\).jpeg);
-    }
-  }
-#home-content-box {
+
+  #home-content-box {
     width: 100%;
     height: 100%;
     display: table;
