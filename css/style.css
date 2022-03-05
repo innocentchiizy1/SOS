@@ -39,6 +39,7 @@ h3 {
 @media(max-width: 979px){
     #home-cover {
       background-position: bottom center;
+      background-image: url(../img/images/SOS\ \(0\).jpeg);
     }
   }
 #home-content-box {
