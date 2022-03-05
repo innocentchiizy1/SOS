@@ -186,7 +186,7 @@ h3 {
 /*==============ABOUT===================== */
 #about-content-box {
     float: left;
-    height: 350px;
+    height: 320px;
     
 }
 #about{
@@ -217,7 +217,7 @@ about-content-box-inner {
 }
 
 #about-bg-diagonal {
-    width: 65%;
+    width: 60%;
     height: 300px;
     background-image: url(../img/images/Segun\ Senbanjo\ Poster-01.jpg);
     border-left: 200px solid #272c2c;;
