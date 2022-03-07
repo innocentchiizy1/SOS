@@ -8,6 +8,8 @@ white         :  #fff
 Black         :  #000
 ================================= */
 /*===============GENERAL CSS================ */
+
+
 html,
 body {
     font-family: 'Trajan Pro', sans-serif;
@@ -45,10 +47,11 @@ h3 {
     display: table;
 }
 
+
 #home-content-box-inner {
     display: table-cell;
     vertical-align: middle;
-    text-align: center;
+   
 }
 
 #home-heading h3 {
@@ -525,7 +528,7 @@ form .form-control {
 }
 
 .vesco-top-nav {
-    background: rgba(0, 0, 0, 0.7);
+    background: transparent;
     padding: 7px 0;
 }
 
@@ -576,13 +579,9 @@ navbar-toggle {
     list-style:none;
     font-size: 30px;
     font-weight: 500;
-    position: left;
-
-
+    margin-top: 40px;
 }
-.dynamic-text li span{
-    position: relative;
-}
+
 
 .logo{
     max-width: 200px;
