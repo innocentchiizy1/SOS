@@ -25,6 +25,70 @@ h3 {
     text-transform: uppercase;
 }
 
+
+.max-width {
+    max-width: i300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+
+
+  
+/*----------------------Home Section------------------*/
+.home {
+    display: flex;
+      background-image: url(../img/images/SOS\ \(00\).jpeg);
+    height: 100vh;
+    color: black;
+   background-size:cover;
+  }
+  .home .max-width {
+    margin: auto 0 auto 40px;
+  }
+  .home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+  }
+  .home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+  }
+  .home .home-content .text-3 span {
+    font-weight: 300;
+    color: crimson;
+  }
+  .home .home-content a {
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.5s ease;
+  }
+  .home .home-content a:hover {
+    color: crimson;
+    background: none;
+  }
+  
+  @media (max-width: 947px) {
+   
+    #home{
+      background-image: url(../img/images/SOS\ \(0\).jpeg);
+    }
+    .home .home-content .text-2 {
+      font-size: 70px;
+    }
+    .home .home-content .text-3 {
+      font-size: 35px;
+    }
+    .home .home-content a {
+      font-size: 23px;
+      padding: 10px 30px;
+    }
+}
 /*==============HOME===================== */
 #home {
     height: 100%;
@@ -684,3 +748,4 @@ navbar-toggle {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
 }
+
